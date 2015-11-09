@@ -1,3 +1,3 @@
 # turingca
-turingca.com官方网站
-集成新生注册，校友录功能
+turingca.com官方网站  
+人员管理系统功能
