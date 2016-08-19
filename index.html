@@ -1,249 +1,587 @@
-﻿<!DOCTYPE HTML>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="keywords" content="TCA,图灵电脑协会,济南大学图灵电脑协会,turingca.com" />
-    <title>图灵电脑协会官方网站</title>
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="css/style.css">
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.popup-with-zoom-anim').magnificPopup({
-            type: 'inline',
-            fixedContentPos: false,
-            fixedBgPos: true,
-            overflowY: 'auto',
-            closeBtnInside: true,
-            preloader: false,
-            midClick: true,
-            removalDelay: 300,
-            mainClass: 'my-mfp-zoom-in'
-        });
-    });
-    </script>
-    <script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(".scroll").click(function(event) {
-            event.preventDefault();
-            $('html,body').animate({
-                scrollTop: $(this.hash).offset().top
-            }, 1000);
-        });
-    });
-    </script>
-    <!-- <link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'> -->
-    <!----- start-Share-instantly-slider---->
-    <!-- Prettify -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <script src="js/owl.carousel.js"></script>
-    <script>
-    $(document).ready(function() {
-        $("#owl-demo , #owl-demo1").owlCarousel({
-            items: 1,
-            lazyLoad: true,
-            autoPlay: true,
-        });
-    });
-    </script>
-    <script>
-    $(document).ready(function() {
-        $("#owl-demo3").owlCarousel({
-            items: 4,
-            lazyLoad: true,
-            autoPlay: true,
-            navigation: false,
-            pagination: false,
-        });
-    });
-    </script>
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-</head>
+	<!--<![endif]-->
 
-<body>
-    <div class="header-wrap">
-        <img alt="图灵电脑协会官方网站" src="images/caiji.png" style="width: 1px; height: 1px; position: fixed;top: -1px;left:-1px;" />
-        <div class="header-menu">
-            <a href="http://www.turingca.com" alt="tca,图灵社团,图灵电脑协会" title="济南大学图灵电脑协会" class="logo">
-                <span alt="tca,图灵社团,图灵电脑协会" title="济南大学图灵电脑协会">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </a>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="http://www.turingca.com">首页</a>
-                    </li>
-                    <li>
-                        <a href="http://wiki.turingca.com" target="_blank">wiki</a>
-                    </li>
-                    <li>
-                        <a href="http://open.turingca.com" target="_blank">开放中心</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void();">校友</a>
-                    </li>
-                    <li>
-                        <a href="http://tieba.baidu.com/%E5%9B%BE%E7%81%B5%E7%94%B5%E8%84%91%E5%8D%8F%E4%BC%9A">官方贴吧</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void();">登录/注册</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="banner">
-        <div class="container">
-            <h1>不完美中奔跑 拥抱变化 持续学习</h1>
-            <h2>turing computer associate</h2>
-        </div>
-    </div>
-    <div class="content_top" id="arrow">
-        <div class="container">
-            <h2 class="tz-title-3">了解我们</h2>
-            <p>if(bool 学习==flase) bool 落后==true</p>
-            <img src="images/about.jpg" class="img-responsive" alt="" />
-            <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span> </span></a>
-        </div>
-    </div>
-    <div class="content_middle">
-        <div class="container">
-            <h3 class="tz-title-3">校友录</h3>
-            <p>29年风雨，多少英雄豪杰</p>
-            <div class="grid_1">
-                <div class="col-md-3 team-grid">
-                    <div class="view view-first">
-                        <div class="index_img"><img src="images/pic1.jpg" class="img-responsive" alt="" /></div>
-                    </div>
-                    <h3>某某某</h3>
-                    <h4>百度web前端工程师</h4>
-                </div>
-                <div class="col-md-3 team-grid">
-                    <div class="view view-first">
-                        <div class="index_img"><img src="images/pic2.jpg" class="img-responsive" alt="" /></div>
-                    </div>
-                    <h3>某某</h3>
-                    <h4>平面设计师</h4>
-                </div>
-                <div class="col-md-3 team-grid">
-                    <div class="view view-first">
-                        <div class="index_img"><img src="images/pic3.jpg" class="img-responsive" alt="" /></div>
-                    </div>
-                    <h3>小朋友</h3>
-                    <h4>大三</h4>
-                </div>
-                <div class="col-md-3 team-grid">
-                    <div class="view view-first">
-                        <div class="index_img"><img src="images/pic4.jpg" class="img-responsive" alt="" /></div>
-                    </div>
-                    <h3>呵呵呵</h3>
-                    <h4>大一</h4>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
-    <div class="content_middle_bottom">
-        <div class="container">
-            <h3 class="tz-title-3">做什么</h3>
-            <h4>希望数年之后有家公司是我们扶持的</h4>
-            <div class="grid_2 text-center">
-                <div class="col-md-4 box_1">
-                    <span class="top-icon1"> </span>
-                    <h3>视觉包装</h3>
-                    <p>广告、视频、设计</p>
-                </div>
-                <div class="col-md-4 box_1">
-                    <span class="top-icon2"> </span>
-                    <h3>开发维护</h3>
-                    <p>软硬、编程、系统</p>
-                </div>
-                <div class="col-md-4 box_1">
-                    <span class="top-icon3"> </span>
-                    <h3>产品人事</h3>
-                    <p>运营、推广、管理</p>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <div class="work">
-            <div class="container">
-                <h3 class="tz-title-3">我们的成果</h3>
-                <h4>一步一步的发展</h4>
-            </div>
-        </div>
-        <div id="owl-demo3" class="owl-carousel owl-carousel2">
-            <div class="item">
-                <img class="lazyOwl" data-src="images/pic5.jpg" alt="Lazy Owl Image">
-                <p class="img_slider"><span class="g-title">wiki </span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 2015年 </a></p>
-            </div>
-            <div class="item">
-                <img class="lazyOwl" data-src="images/pic6.jpg" alt="Lazy Owl Image">
-                <p class="img_slider"><span class="g-title">open </span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 2014年 </a></p>
-            </div>
-            <div class="item">
-                <img class="lazyOwl" data-src="images/pic5.jpg" alt="Lazy Owl Image">
-                <p class="img_slider"><span class="g-title">wiki </span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 2015年 </a></p>
-            </div>
-            <div class="item">
-                <img class="lazyOwl" data-src="images/pic6.jpg" alt="Lazy Owl Image">
-                <p class="img_slider"><span class="g-title">open </span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 2014年 </a></p>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-        <div class="client">
-            <div class="container">
-                <div class="client_desc">
-                    <h3 class="tz-title-3 client_head">记住</h3>
-                    <h4>你们可能创造奇迹</h4>
-                </div>
-            </div>
-        </div>
-        <div class="contact">
-            <div class="container">
-                <div class="content_middle_bottom">
-                    <h3 class="tz-title-3">倾听您的意见</h3>
-                    <h4>做一名优秀的产品经理</h4>
-                </div>
-                <div class="col-sm-10 grid_2">
-                    <h3>需求收集</h3>
-                    <form>
-                        <input type="text" class="text" value="姓名" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '姓名';}">
-                        <input type="text" class="text" value="邮箱" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '邮箱';}">
-                        <textarea value="Message" onFocus="this.value= '';" onBlur="if (this.value == '') {this.value = '需求';}">需求</textarea>
-                        <input type="submit" value="Send Message">
-                    </form>
-                </div>
-                <div class="col-sm-2">
-                    <ul class="c_social">
-                        <li>
-                            <a href=""> <i class="behance"> </i> </a>
-                        </li>
-                        <li><a href=""><i class="twitter"> </i> </a></li>
-                        <li><a href=""><i class="dribble"> </i> </a></li>
-                        <li><a href=""><i class="facebook"> </i> </a></li>
-                        <li><a href=""><i class="google"> </i> </a></li>
-                    </ul>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="copy">
-                <p>Copyright &copy; 2015 TCA </p>
-            </div>
-            <script type="text/javascript">
-            $(document).ready(function() {
-                $().UItoTop({
-                    easingType: 'easeOutQuart'
-                });
-            });
-            </script>
-            <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-        </div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>济南大学图灵电脑协会-Turingca.com</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="keywords" content="图灵，TCA，济南大学图灵电脑协会">
+		<meta name="author" content="TCA" />
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Custom Google Web Font -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href='//fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='//fonts.useso.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- Custom CSS-->
+		<link href="css/general.css" rel="stylesheet">
+
+		<!-- Owl-Carousel -->
+		<link href="css/custom.css" rel="stylesheet">
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+
+		<!-- Magnific Popup core CSS file -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<!-- Modernizr /-->
+		<script src="js/PIE_IE9.js"></script>
+		<script src="js/PIE_IE678.js"></script>
+
+		<!-- Remodal -->
+		<link rel="stylesheet" type="text/css" href="css/remodal.css" />
+		<link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css" />
+
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	</head>
+
+	<body id="home">
+
+		<!-- Preloader -->
+		<div id="preloader">
+			<div id="status"></div>
+		</div>
+
+		<!-- FullScreen -->
+		<!-- FullScreen -->
+		<div class="intro-header">
+			<div class="col-xs-12 text-center abcen1">
+				<img class="h1_home wow fadeIn" data-wow-delay="0.4s" src="img/bigLOgo.png" alt="TCA" />
+				<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">济南大学图灵电脑协会</h3>
+				<ul class="list-inline intro-social-buttons">
+					<li>
+						<a data-remodal-target="modal" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">微信公众号</span></a>
+					</li>
+					<li id="download">
+						<a href="//tieba.baidu.com/%E5%9B%BE%E7%81%B5%E7%94%B5%E8%84%91%E5%8D%8F%E4%BC%9A" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s" target="_blank"><span class="network-name">官方贴吧</span></a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.container -->
+			<div class="col-xs-12 text-center abcen wow fadeIn">
+				<div class="button_down ">
+					<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+				</div>
+			</div>
+		</div>
+
+		<nav class="navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					<a class="navbar-brand" href="#home">T C A</a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+
+						<li class="menuItem">
+							<a href="#whatis">社团构成</a>
+						</li>
+						<li class="menuItem">
+							<a href="#screen">社团活动</a>
+						</li>
+						<li class="menuItem">
+							<a href="#credits">社团成果</a>
+						</li>
+						<li class="menuItem">
+							<a href="//wiki.turingca.com" target="_blank">知识库</a>
+						</li>
+						<li class="menuItem">
+							<a href="#contact">联系我们</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!--
+        	各部门预览
+        -->
+		<div id="whatis" class="content-section-b" style="border-top: 0">
+			<div class="container">
+
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+					<h2>了解我们</h2>
+					<p class="lead" style="margin-top:0">一个幸福的大家庭</p>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-sm-4 wow fadeInDown text-center">
+						<img class="rotate" src="img/turinglogo/secretary/logo128.png" alt="秘书部">
+						<h3>秘书部</h3>
+						<p class="lead">整个社团的面基聚会玩游戏还是要交给秘书部哒✧٩(ˊωˋ*)و✧</p>
+						<p>
+							<a href="#secretary" class="btn btn-embossed btn-primary view" role="button">详情</a>
+						</p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-sm-4 wow fadeInDown text-center">
+						<img class="rotate" src="img/turinglogo/electric/LOGO－S－2.png" alt="电子创新">
+						<h3>电子创新部</h3>
+						<p class="lead">自己做自己的小玩具！<br />流水灯、光立方…………</p>
+						<p>
+							<a href="#electric" class="btn btn-embossed btn-primary view" role="button">详情</a>
+						</p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-sm-4 wow fadeInDown text-center">
+						<img class="rotate" src="img/turinglogo/hardware/yjb128.png" alt="硬件部">
+						<h3>硬件部</h3>
+						<p class="lead">这是一个能够撩妹的部门，，撩男神也可以哦 </p>
+						<p>
+							<a href="#hardware" class="btn btn-embossed btn-primary view" role="button">详情</a>
+						</p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+				</div>
+				<!-- /.row -->
+
+				<div class="row tworow">
+					<div class="col-sm-4  wow fadeInDown text-center">
+						<img class="rotate" src="img/turinglogo/nsec/logo_sm.png" alt="网络安全">
+						<h3>网络安全部</h3>
+						<p class="lead">在一次次实战中熟悉黑客入侵常用手法，对入侵做出响应策略</p>
+						<p>
+							<a href="#netsec" class="btn btn-embossed btn-primary view" role="button">详情</a>
+						</p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-sm-4 wow fadeInDown text-center">
+						<img class="rotate" src="img/turinglogo/software/128.png" alt="软件部">
+						<h3>软件部</h3>
+						<p class="lead">Android 的开发与逆向、iOS 的开发 H5应用的开发这里应有尽有</p>
+						<p>
+							<a href="#software" class="btn btn-embossed btn-primary view" role="button">详情</a>
+						</p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+					<div class="col-sm-4 wow fadeInDown text-center">
+						<img class="rotate" src="img/turinglogo/website/128^2.png" alt="网站部">
+						<h3>网站部</h3>
+						<p class="lead">这个站就是网站部撸的……你懂的…… HTML CSS Javascript Node.js</p>
+						<p>
+							<a href="#website" class="btn btn-embossed btn-primary view" role="button">详情</a>
+						</p>
+					</div>
+					<!-- /.col-lg-4 -->
+
+				</div>
+				<!-- /.row -->
+			</div>
+		</div>
+		<!-- All Group Details  --->
+		<div id="software" class="content-section-a">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 pull-right wow fadeInRightBig">
+						<img class="img-responsive hafrans-soft-adjustment" style="top:5rem" src="img/turinglogo/software/256.png" alt="stw">
+					</div>
+
+					<div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
+						<h3 class="section-heading">软件部</h3>
+						<div class="sub-title lead3">Android iOS H5 应用 </div>
+						<p class="lead">
+							图灵电脑协会软件部，由一群爱好软件的小伙伴组成。无论你是喜欢软件，游戏开发还是软件逆向，在这里，都能找到志同道合的人。不论有没有基础，只要对软件感兴趣，想对软件有更多的了解，都可以加入我们。 目前我们软件部有:android开发与逆向，python,游戏开发，html等方向，欢迎参加 ！~~
+						</p>
+
+						<!--<p><a class="btn btn-embossed btn-primary" href="#" role="button">详情</a>
+							<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>-->
+					</div>
+				</div>
+			</div>
+			<!-- /.container -->
+		</div>
+
+		<div id="hardware" class="content-section-b">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 wow fadeInLeftBig">
+						<img class="img-responsive hafrans-soft-adjustment" src="img/turinglogo/hardware/yjb256.png" />
+					</div>
+
+					<div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
+						<h3 class="section-heading">硬件部</h3>
+						<div class="sub-title lead3">实践是检验真理的唯一标准。</div>
+						<p class="lead">在学习理论的基础之上锻炼自己的实践能力，解决电脑的基本问题—计算机硬件的组装与维护，提升自我分析能力和动手能力，计算机系统的封装、安装、调试与维护，网络安全软件、系统辅助软件的使用等等硬件部都有所涉及。 同时，作为协会重要的组成部分，肩负着每月一次的大型活动—电脑义务维修的组织与举行。在这里，你可以亲手实践，给自己以锻炼机会的同时也帮他人解决了问题。更重要的是还能结识一群妹子哦~ 哦，还有男神</p>
+						<!--<p><a class="btn btn-embossed btn-primary" href="#" role="button">详情</a>
+							<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="electric" class="content-section-a">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 pull-right wow fadeInRightBig">
+						<img class="img-responsive hafrans-soft-adjustment" src="img/turinglogo/electric/logo－L－2.png" alt="stw">
+					</div>
+
+					<div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
+						<h3 class="section-heading">电子创新部</h3>
+						<div class="sub-title lead3">单片机 电子 电路</div>
+						<p class="lead">
+							主要涉及基础的电子电路方面的应用，以及51单片机，Arduino等MCU的应用与开发。即使你从未接触过此类东西，只要你有兴趣，那么在这里，我们将带你探索电子的世界，在这里，你可以看到好多新奇的元件，芯片；可以自己动手，创造属于自己的玩具：奇妙的流水灯，变幻的光立方，表达心意的摇摇棒，在操作方面我们不仅可以采用C语言等编程语言，更是有图形化编程让成员快速上手，激发兴趣，在这里你可以尽情放飞自己的思维，用深邃的二进制体会电子世界的奥妙。
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+		<div id="website" class="content-section-b">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 wow fadeInLeftBig">
+						<img class="img-responsive hafrans-soft-adjustment" src="img/turinglogo/website/256^2.png" />
+					</div>
+
+					<div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
+						<h3 class="section-heading">网站部</h3>
+						<div class="sub-title lead3">Html Css Js PHP等</div>
+						<p class="lead">图灵电脑协会网站部是专注于建设Web云应用的部门。网站部专注于HTML5 Web应用的开发，研究内容包括HTML、JavaScript、CSS、PHP、NodeJS等，覆盖了建设一个现代化网站所需要的大部分技能。通过学习与掌握以上技能，你可以构建、维护并美化你的博客，从0开始编写一个属于你自己的网站；还可以撰写网页时钟、2048等精巧的HTML5 小游戏。 我部一直以来都是齐鲁软件大赛参赛的中坚力量之一，部员曾经多次参加齐鲁软件大赛并获得不俗成绩。如果你也想要参加各种科创赛事、为自己赢得荣誉、锻炼编程能力，欢迎你加入我们部，我们部永远欢迎你！
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- /.container-->
+
+		<div id="netsec" class="content-section-a">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 pull-right wow fadeInRightBig">
+						<img class="img-responsive hafrans-soft-adjustment" src="img/turinglogo/nsec/logo.png" alt="stw">
+					</div>
+
+					<div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
+						<h3 class="section-heading">网络安全部</h3>
+						<div class="sub-title lead3">拔小旗，拿渣站，你说咋办就咋办……</div>
+						<p class="lead">
+							网络安全部专注于网络安全方面和少部分与网络安全相关的信息安全方面的研究，旨在通过网络攻防保护网络设备，软件的安全可靠，和保护数据不被恶意修改，在一次次实战中熟悉黑客入侵常用手法，对入侵做出响应策略 。小组合作，团队意识 为网络安全发展浴血奋战
+						</p>
+
+						<!--<p><a class="btn btn-embossed btn-primary" href="#" role="button">详情</a>
+										<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+		<div id="secretary" class="content-section-b">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 wow fadeInLeftBig">
+						<img class="img-responsive hafrans-soft-adjustment" src="img/turinglogo/secretary/logo256.png" />
+					</div>
+
+					<div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
+						<h3 class="section-heading">秘书部</h3>
+						<div class="sub-title lead3">每天都是萌萌哒✧٩(ˊωˋ*)و✧</div>
+						<p class="lead">秘书部隶属十佳优秀社团图灵电脑社团。是整个社团最不要求技术也是最不可或缺的一个部门。秘书部存在目的：组织社团活动，宣扬社团文化，处理社团大小事务，记录社团人员资料。大大小小的活动要经过秘书部收拾打理然后设计计划开始实行。每周的教学任务由各部门自己组织，但是整个社团的面基聚会玩游戏还是要交给秘书部哒✧٩(ˊωˋ*)و✧秘书部虽然不像其他部门一样每周给社团成员讲知识，但是要清楚的记录每个成员的资料，要宣传社团文化，要记录社团发生的大小事。而且秘书部会随时准备为其他部门服务，为整个社团服务。</p>
+						<!--<p><a class="btn btn-embossed btn-primary" href="#" role="button">详情</a>
+							<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 活动 -->
+		<!-- 社团活动  -->
+	<div id="screen" class="content-section-b">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+						<h2>丰富多彩的活动</h2>
+						<p class="lead" style="margin-top:0">Colorful activities</p>
+					</div>
+				</div>
+				<div class="row wow bounceInUp">
+					<div id="owl-demo" class="owl-carousel">
+						<!-- 活动条目 -->
+						<a href="img/slide/1.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+							</div>
+						</a>
+
+						<a href="img/slide/2.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+							</div>
+						</a>
+
+						<a href="img/slide/3.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+							</div>
+						</a>
+
+						<a href="img/slide/1.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+							</div>
+						</a>
+
+						<a href="img/slide/2.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+							</div>
+						</a>
+
+						<a href="img/slide/3.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--
+        	作者：hafrans@163.com
+        	时间：2016-08-14
+        	描述：此处是大坑
+        -->
+		<div class="content-section-c" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center white">
+						<h2>Get Live Updates</h2>
+						<p class="lead" style="margin-top:0"></p>
+					</div>
+					<div class="col-md-6 col-md-offset-3 text-center">
+						<div class="mockup-content">
+							<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+								<button type="button"><span>Subscribe to our Newsletter</span></button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 成果 -->
+		<div id="credits" class="content-section-a">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+						<h2>我们的成果</h2>
+						<p class="lead" style="margin-top:0">Our Gains</p>
+					</div>
+
+					<div class="col-sm-6  block wow bounceIn">
+						<div class="row">
+							<div class="col-md-4 box-icon rotate">
+								<i class="fa fa-desktop fa-4x "> </i>
+							</div>
+							<div class="col-md-8 box-ct">
+								<h3> 赛事A </h3>
+								<p> 锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 block wow bounceIn">
+						<div class="row">
+							<div class="col-md-4 box-icon rotate">
+								<i class="fa fa-picture-o fa-4x "> </i>
+							</div>
+							<div class="col-md-8 box-ct">
+								<h3> 活动B </h3>
+								<p> 锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row tworow">
+					<div class="col-sm-6  block wow bounceIn">
+						<div class="row">
+							<div class="col-md-4 box-icon rotate">
+								<i class="fa fa-magic fa-4x "> </i>
+							</div>
+							<div class="col-md-8 box-ct">
+								<h3> 日常 </h3>
+								<p> 锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷 </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 block wow bounceIn">
+						<div class="row">
+							<div class="col-md-4 box-icon rotate">
+								<i class="fa fa-heart fa-4x "> </i>
+							</div>
+							<div class="col-md-8 box-ct">
+								<h3> 出游 D </h3>
+								<p> 锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷锟斤拷锟斤拷之锟斤拷</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 集体照  -->
+		<div id="Our" class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+						<h2>记住</h2>
+						<p class="lead" style="margin-top:0">你们定会创造奇迹</p>
+						<!--<p>
+							<a class="btn btn-embossed btn-primary view" role="button">Test</a>
+						</p>-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact -->
+		<div id="contact" class="content-section-a">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+						<h2>联系我们</h2>
+						<p class="lead" style="margin-top:0">Contact Us.</p>
+					</div>
+
+					<form role="form" action="" method="post">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="InputName">姓名</label>
+								<div class="input-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="InputEmail">电子邮箱</label>
+								<div class="input-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="InputMessage">留言信息</label>
+								<div class="input-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
+							</div>
+
+							<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+						</div>
+					</form>
+
+					<hr class="featurette-divider hidden-lg">
+					<div class="col-md-5 col-md-push-1 address">
+						<address>
+					<h3>社团地址</h3>
+					<p class="lead"><!--<a href="#">The Pentagon<br>-->
+					山东省济南市市中区南辛庄西路336号<!--</a>--><br>
+					济南大学西校区<br>
+					Zip Code:250022</p>
+					</address>
+
+						<!--<h3>Social</h3>
+						<li class="social">
+							<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
+							<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a>
+							<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
+							<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
+						</li>-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<p>&copy;2016 Turingca.com All Rights Reserved.</p>
+			</div>
+		</footer>
+		<div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: false">
+
+			<button data-remodal-action="close" class="remodal-close"></button>
+			<h3>官方微信</h3>
+			<p>
+				搜索公众号turingca 或扫描屏幕下方的二维码即可关注图灵电脑协会的官方微信哦~
+			</p>
+			<br>
+			<!--<button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>-->
+			<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+		</div>
+		<!-- JavaScript -->
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/script.js"></script>
+		<!-- StikyMenu -->
+		<script src="js/stickUp.min.js"></script>
+		<script type="text/javascript">
+			jQuery(function($) {
+				$(document).ready(function() {
+					$('.navbar-default').stickUp();
+
+				});
+			});
+		</script>
+		<!-- Smoothscroll -->
+		<script type="text/javascript" src="js/jquery.corner.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<script src="js/classie.js"></script>
+		<script src="js/uiMorphingButton_inflow.js"></script>
+		<!-- Magnific Popup core JS file -->
+		<script src="js/jquery.magnific-popup.js"></script>
+		<script type="text/javascript" src="js/remodal.js"></script>
+	</body>
 
 </html>
