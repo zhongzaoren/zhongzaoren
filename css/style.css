@@ -456,6 +456,7 @@ blockquote .small:before {
   content: "";
 }
 blockquote.pull-right {
+	display: block;
   padding-right: 16px;
   padding-left: 0;
   border-right: 3px solid #e7e9ec;
@@ -4775,13 +4776,30 @@ footer p {
 	}
 	
 
-.hafrans-soft-adjustment{
-	position: relative;
-	left:15rem;
-	top:10rem;
+@media screen and (min-width: 960px) {
+	.hafrans-soft-adjustment{
+		position: relative;
+		left:15rem;
+		top:9rem;
+	}
+	
 }
+
+@media screen and (max-width: 960px) {
+	.hafrans-soft-adjustment{
+		width: 60%;
+		height: 60%;
+		position: relative;
+		left:20%;
+	}
+	.hafrans-logo{
+		max-height: 80%;
+		max-width: 80%;
+	}
+	
+}
+
 .qcode{
 	max-height: 95%;
 	max-width: 95%;
-	
 }
