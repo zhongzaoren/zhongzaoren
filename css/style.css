@@ -4780,3 +4780,8 @@ footer p {
 	left:15rem;
 	top:10rem;
 }
+.qcode{
+	max-height: 95%;
+	max-width: 95%;
+	
+}
