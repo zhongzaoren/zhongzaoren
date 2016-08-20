@@ -4775,13 +4775,16 @@ footer p {
 	}
 	
 
-.hafrans-soft-adjustment{
-	position: relative;
-	left:15rem;
-	top:10rem;
+@media only screen and (min-width: 768px) {
+	.hafrans-soft-adjustment{
+		position: relative;
+		left:15rem;
+		top:10rem;
+	}
+	
 }
+
 .qcode{
 	max-height: 95%;
 	max-width: 95%;
-	
 }
