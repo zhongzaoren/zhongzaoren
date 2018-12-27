@@ -4778,8 +4778,7 @@ footer p {
 
 @media screen and (min-width: 960px) {
 	.hafrans-soft-adjustment{
-		position: relative;
-		left:15rem;
+ 		left:15rem;
 		top:9rem;
 	}
 	
